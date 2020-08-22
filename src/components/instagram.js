@@ -26,7 +26,7 @@ const Instagram = () => (
     `}
     render={data => (
       <div className="gallery">
-        {data.allInstaNode.edges.map((item, i) =>
+        {/* {data.allInstaNode.edges.map((item, i) =>
           item.node.localFile ? (
             <div key={i}>
               <a href={"https://www.instagram.com/p/" + item.node.id}>
@@ -44,7 +44,7 @@ const Instagram = () => (
           ) : (
             <div></div>
           )
-        )}
+        )} */}
       </div>
     )}
   />
