@@ -46,7 +46,6 @@ const Footer = ({ menuLinks }) => (
                 <br />
                 10:00 AM - 7:00 PM
               </td>
-              {/* <td>10:00 AM - 5:00 PM</td> */}
             </tr>
             <tr style={new Date().getDay() === 1 ? { fontWeight: 600 } : {}}>
               <td>Monday</td>
