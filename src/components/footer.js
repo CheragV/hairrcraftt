@@ -28,7 +28,6 @@ const Footer = ({ menuLinks }) => (
               <a href="tel:+919832322844">9832322844</a>
             </span>
             <br />
-            <a href="mailto:tisha@brujasalon.com">tisha@brujasalon.com</a>
           </p>
         </div>
       </div>

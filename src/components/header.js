@@ -6,7 +6,7 @@ import SlideMenu from "./slide-menu"
 import Nav from "./nav"
 
 import styles from "./styles/header.module.css"
-import logo from "../images/logo-black.svg"
+import logo from "../images/logo_hairrcraftt.png"
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header>
@@ -15,7 +15,7 @@ const Header = ({ siteTitle, menuLinks }) => (
     </div>
     <div className={styles.header__logo}>
       <Link to="/">
-        <img src={logo} alt={siteTitle} />
+        <h1 className="header_brand">HairrCraftt</h1>
       </Link>
     </div>
     <div className={styles.header__menu}>

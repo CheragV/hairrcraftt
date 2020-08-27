@@ -7,8 +7,9 @@ import styles from "./styles/nav.module.css"
 const Nav = ({ menuLinks }) => (
   <nav
     style={{
-      display: `grid`,
-      gridTemplateColumns: `auto min-content`,
+      display: `flex`,
+      flexDirection: "flex-wrap",
+      // gridTemplateColumns: `auto min-content`,
       alignItems: `center`,
       justifyItems: `center`,
     }}
@@ -25,17 +26,9 @@ const Nav = ({ menuLinks }) => (
       })}
     </ul>
     <ul className={styles.header__menu__book}>
-      <li>
-        {/* <Link
-          className="button"
-          to={menuLinks.find(({ name }) => name === "Book Now")}
-        >
-          Book Now
-        </Link> */}
-        <a href="tel:9832322844" className="button">
-          📞 HairrCraftt
-        </a>
-      </li>
+      <a href="tel:9832322844" className="button">
+        📞<span className="call_text">HairrCraftt</span>
+      </a>
     </ul>
   </nav>
 )

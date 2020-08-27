@@ -5,9 +5,8 @@ import Layout from "../components/layout"
 import SEO from "../components/seo"
 import Instagram from "../components/instagram-single"
 import Newsletter from "../components/newsletter"
-import Map from "../components/map"
 
-import CoverImage from "../images/cover-image.png"
+import CoverImage from "../images/logo_hairrcraftt.png"
 
 const insideStyles = {
   color: "white",
@@ -22,8 +21,11 @@ const insideStyles = {
 const IndexPage = () => (
   <Layout>
     <SEO />
-    <div>
-      <img src={CoverImage} style={{ height: "40vh", width: "100vw" }} />
+    <div
+      className="cover_image_container"
+      // style={{ display: "flex", justifyContent: "center" }}
+    >
+      <img src={CoverImage} className="cover_image" />
     </div>
     <div className="frame_one_column">
       <div className="centered_p">
@@ -80,7 +82,6 @@ const IndexPage = () => (
       <Instagram />
       <Newsletter />
     </div>
-    <Map />
   </Layout>
 )
 

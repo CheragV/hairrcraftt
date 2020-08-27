@@ -1,9 +1,11 @@
 header {
   display: grid;
-  width: 100%;
-  grid-template-columns: min-content auto;
+  width: 100vw;
+  grid-template-columns: 300px auto 50px;
   align-items: center;
   background: white;
+}
+.header_brand {
 }
 .header__slide {
   display: none;
@@ -12,10 +14,9 @@ header {
   min-width: 200px;
   padding: 1.45rem 1.0875rem;
 }
-.header__logo img {
-  fill: rgb(1, 1, 1);
-  filter: brightness(1.5);
-  height: 80px;
+.header__menu {
+  display: flex;
+  justify-content: flex-end;
 }
 .header__menu ul {
   margin: 0;
@@ -38,24 +39,21 @@ header {
   .header__logo {
     min-width: 160px;
   }
-  .header__logo img {
-    height: 60px;
+  .header__logo h1 {
+    font-size: 36px;
   }
 }
 /* TODO: at <=640 width, change nav to left side pull out menu and center logo */
 @media (max-width: 640px) {
   header {
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: 1fr 3fr 1fr;
   }
   .header__slide {
-    display: inline-block;
+    display: flex;
     min-width: 72px;
   }
   .header__logo {
     min-width: 134px;
     padding: 1rem 0;
-  }
-  .header__logo img {
-    height: 50px;
   }
 }
