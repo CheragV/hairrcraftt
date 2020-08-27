@@ -47,8 +47,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: "Bruja Hair Salon",
-        short_name: "Bruja Salon",
+        name: "HairrCraftt Unisex Salon",
+        short_name: "HairrCraftt",
         start_url: "/",
         background_color: "#E3C8EB",
         theme_color: "#FFFFFF",

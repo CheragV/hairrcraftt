@@ -14,25 +14,7 @@ import Img from "gatsby-image"
  */
 
 const Image = () => {
-  const data = useStaticQuery(graphql`
-    query {
-      placeholderImage: file(relativePath: { eq: "map.png" }) {
-        childImageSharp {
-          fluid(maxWidth: 600) {
-            ...GatsbyImageSharpFluid_withWebp
-          }
-        }
-      }
-    }
-  `)
-
-  return (
-    <Img
-      style={{ outline: "2px solid var(--text-color)", maxWidth: "600px", maxHeight: "600px" }}
-      fluid={data.placeholderImage.childImageSharp.fluid}
-      alt="Directions to Bruja Salon on Google Maps"
-    />
-  )
+  return null
 }
 
 export default Image
