@@ -1,4 +1,3 @@
-// Instagram.js
 import React from "react"
 import { graphql, StaticQuery } from "gatsby"
 import Image from "gatsby-image"
