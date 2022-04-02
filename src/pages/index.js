@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 
 import Layout from "../components/layout"
 import SEO from "../components/seo"
-import Instagram from "../components/instagram-single"
-import Newsletter from "../components/newsletter"
+import InstagramSingle from "../components/instagram-single"
+import InstagramSingle2 from "../components/instagram-single-2"
 
 import CoverImage from "../images/logo_hairrcraftt.png"
 
@@ -23,66 +23,24 @@ const IndexPage = () => (
     <SEO />
     <div
       className="cover_image_container"
-      // style={{ display: "flex", justifyContent: "center" }}
     >
       <img src={CoverImage} className="cover_image" />
     </div>
     <div className="frame_one_column">
       <div className="centered_p">
         <h1 style={{ textAlign: `center` }}>Magic is in the Hair</h1>
-        <p>
-          Conjuring the best you in Siliguri's neighborhood. We offer the full
-          range of hair services from cuts to high fashion color and scalp
-          treatments.
-          <br />
-          <br />
-          Please read this page for your next appointment:
-        </p>
-        <p className="button_p">
-          <Link className="button" to="/covid19">
-            COVID-19 Information
-          </Link>
-        </p>
-        <blockquote className="box_block">
-          <h4>COVID-19 Update</h4>
-          <p>
-            Your stylist may reach out to you in advance of your appointment to
-            touch base with more specific information relevant to you and your
-            upcoming service.
-          </p>
-          <ul>
-            <li>
-              All clients and stylists will be required to wear a mask while at
-              the salon. Your stylist may also be wearing eye protection for
-              further safety precautions.
-            </li>
-            <li>
-              Please arrive on-time for your appointment and allow an additional
-              5-10 minutes for check-in.
-            </li>
-            <li>
-              Blow-drying and beverage services are suspended to prevent the
-              spread of COVID-19.
-            </li>
-            <p className="button_p">
-              <a className="button" href="covid-liability-form.pdf">
-                COVID-19 Liability Form
-              </a>
-            </p>
-          </ul>
-          <br />
-          <p>
-            Thank you so very much for your kindness and support during this
-            difficult time in history. We look forward to seeing you soon!
-          </p>
-        </blockquote>
+        <p>We believe every hair is different and hence needs a different treatment and care routine. We pride in delivering honest & customized services to suit your hair type, texture and concerns.</p>
+        <p>We are an award winning salon, delivering excellence in cutting, colouring, hair & beauty treatments for men and women at an affordable price. We ensure you enjoy flawless results during and after any hair service you have with us. We offer tailor made services to suit your hair type and improve the condition of your hair. You can speak to our Hair Experts for their proficient advice for what will be best for your hair.</p>
+        <p>It is our dedication to first class expertise and skill that keeps our following coming back for more. We are renowned not only for our Haircut, Color & Texture services, but also for our serene Hair Spa experience. Visiting Hair Castle puts you at the heart of hair transformation because we are as passionate & excited about your Hair, as you are.</p>
+        <br />
+        <br />
       </div>
     </div>
     <div className="frame_two_columns">
-      <Instagram />
-      <Newsletter />
+      <InstagramSingle />
+      <InstagramSingle2 />
     </div>
-  </Layout>
+  </Layout >
 )
 
 export default IndexPage
