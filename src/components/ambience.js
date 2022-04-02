@@ -28,7 +28,6 @@ const Ambience = () => {
                 }
             }}
         }`)
-    console.log(Object.values(data))
     return (
         <div className={styles.ambience}>
             {

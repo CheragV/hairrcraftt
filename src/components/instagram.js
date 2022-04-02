@@ -1,36 +1,37 @@
 import React from "react"
-import { graphql, StaticQuery } from "gatsby"
+import { graphql, useStaticQuery } from "gatsby"
 import Image from "gatsby-image"
 
-const Instagram = () => (
-  <StaticQuery
-    query={graphql`
-      {
-        allInstaNode(limit: 15, sort: { order: DESC, fields: timestamp }) {
-          edges {
-            node {
-              id
-              caption
-              localFile {
-                childImageSharp {
-                  fluid(maxWidth: 250, maxHeight: 250) {
-                    ...GatsbyImageSharpFluid_withWebp
-                  }
-                }
-              }
+const Instagram = () => {
+  const query = useStaticQuery(graphql`
+  query {
+    allFile(filter: { relativeDirectory: { eq: "insta-images" } }) {
+      edges {
+        node {
+          id
+          childImageSharp {
+            fluid(maxWidth: 250, maxHeight: 250) {
+              ...GatsbyImageSharpFluid_withWebp
             }
           }
         }
       }
-    `}
-    render={data => (
-      <div className="gallery">
-        {data.allInstaNode.edges.map((item, i) => item.node.localFile ? (
+    }
+  }
+`)
+
+  debugger
+  return (
+    <div className="gallery">
+      {query.allFile.edges.map((item, i) => {
+        debugger
+        return item.node?.childImageSharp?.fluid ? (
           <div key={i}>
-            <a href={"https://www.instagram.com/p/" + item.node.id}>
+            <a>
               <Image
                 className="gallery__image"
-                fluid={item.node.localFile.childImageSharp.fluid}
+                objectFit="cover"
+                fluid={item.node?.childImageSharp?.fluid}
                 alt={
                   !item.node.caption
                     ? "Instagram feed photo"
@@ -38,14 +39,11 @@ const Instagram = () => (
                 }
               />
             </a>
-          </div>
-        ) : (
-          <div></div>
-        )
-        )}
-      </div>
-    )}
-  />
-)
+          </div>) : null
+      })
+      }
+    </div >
+  )
+}
 
-export default Instagram
+export default Instagram;

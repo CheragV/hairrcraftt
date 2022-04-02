@@ -167,6 +167,7 @@ table {
 .gallery__image {
   max-width: 400px;
   width: 100%;
+  object-fit: contain;
 }
 .stylist {
   text-align: center;
