@@ -22,7 +22,7 @@ const Nav = ({ menuLinks }) => (
               <Link to={link.link}>{link.name}</Link>
             </li>
           )
-        }
+        } else return null
       })}
     </ul>
     <ul className={styles.header__menu__book}>
