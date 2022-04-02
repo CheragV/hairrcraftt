@@ -1,0 +1,36 @@
+.container {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.options {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 40px;
+}
+.o_selected {
+  background-color: black !important;
+  color: white;
+  font-size: 16px;
+}
+.options > button {
+  padding: 12px;
+  border-radius: 4px;
+  margin: 3px 6px;
+}
+
+.ambience {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: auto;
+}
+.ambience_image {
+  width: 250px;
+  height: 400px;
+  margin: 4px;
+  object-fit: contain;
+}

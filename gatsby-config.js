@@ -10,25 +10,17 @@ module.exports = {
         link: "/",
       },
       {
-        name: "COVID-19 Info",
-        link: "/covid19",
-      },
-      // {
-      //   name: "Stylists",
-      //   link: "/stylists",
-      // },
-      {
         name: "Services",
         link: "/services",
       },
       {
-        name: "Products",
-        link: "/products",
+        name: "Gallery",
+        link: "/gallery",
       },
-      // {
-      //   name: "Blog",
-      //   link: "/blog",
-      // },
+      {
+        name: "Contact US",
+        link: "/contact"
+      }
     ],
   },
   plugins: [

@@ -10,22 +10,24 @@ const Footer = ({ menuLinks }) => (
     <div className="frame_two_columns">
       <div>
         <p className={styles.address}>
-          <a href="https://www.google.com/maps/dir//26.7333978,88.4286345/@26.7334948,88.4285332,21z/data=!4m2!4m1!3e0">
-            <span className={styles.title}>HairrCraftt</span>
-            <br />
-            Green View Apartment
-            <br />
-            Bhanu Nagar
-            <br />
-            Siliguri, West Bengal, 734001
+          <span className={styles.title}>HairrCraftt</span>
+          <br />
+          <a href="https://g.page/Hairrcraftt?share">
+            Green View Apartment, Bhanu Nagar
           </a>
+          <br />
+          <a href="https://g.page/Womans-Salon?share">
+            Navjeevan Apartment, Punjabi Para
+          </a>
+          <br />
+          Siliguri, West Bengal, 734001
         </p>
         <div className={styles.contact}>
           <p>
             <span className={styles.title}>Contact HairrCraftt</span>
             <br />
             <span itemProp="telephone">
-              <a href="tel:+919832322844">9832322844</a>
+              <a href="tel:+919733371666">9733371666</a>
             </span>
             <br />
           </p>
