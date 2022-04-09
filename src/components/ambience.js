@@ -5,10 +5,10 @@ import styles from './styles/gallery.module.css';
 
 const Ambience = () => {
     const images = [
-        require('../images/ambience/image1.png'),
-        require('../images/ambience/image2.png'),
-        require('../images/ambience/image3.png'),
-        require('../images/ambience/image4.png')
+        require('../images/ambience/image1.webp'),
+        require('../images/ambience/image2.webp'),
+        require('../images/ambience/image3.webp'),
+        require('../images/ambience/image4.webp')
     ]
     return (
         <div className={styles.ambience}>
