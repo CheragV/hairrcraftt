@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `HairrCraftt Unisex Salon`,
-    description: `Best Salon in Siliguri. Haircuts, Hair Treatments, Facial, Hair Color Transformations, Skin Services, Bridal Makeup, Glam Makeup, Mens Grooming, Mens parlour`,
+    description: `Best Unisex Salon in Siliguri. Haircuts, Hair Treatments, Keratin Treatment, Nair Art, Bridal Makeup, Facial`,
     facebook: `hairrcraftt`,
     instagram: `@hairrcraftt`,
     siteMap: [

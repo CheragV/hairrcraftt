@@ -25,11 +25,11 @@ const Nav = ({ menuLinks }) => (
         } else return null
       })}
     </ul>
-    <ul className={styles.header__menu__book}>
+    <div className={styles.header__menu__book}>
       <a href="tel:9733371666" className="button">
         📞<span className="call_text">HairrCraftt</span>
       </a>
-    </ul>
+    </div>
   </nav>
 )
 

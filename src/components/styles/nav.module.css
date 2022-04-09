@@ -13,6 +13,7 @@
 }
 .header__menu__links a {
   padding: 1.2rem 0.5rem 1rem 0.5rem;
+  border-radius: 8px;
 }
 .header__menu__links a:hover {
   text-decoration: underline;

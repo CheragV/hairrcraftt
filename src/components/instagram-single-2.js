@@ -16,7 +16,7 @@ import Img from "gatsby-image"
 const Image = () => {
   const data = useStaticQuery(graphql`
     query {
-      placeholderImage: file(relativePath: { eq: "insta-single-2.png" }) {
+      placeholderImage: file(relativePath: { eq: "insta-single-2.webp" }) {
         childImageSharp {
           fluid(maxWidth: 1000) {
             ...GatsbyImageSharpFluid_withWebp
@@ -27,7 +27,7 @@ const Image = () => {
   `)
 
   return (
-    <a>
+    <a href="https://www.instagram.com/hairrcraftt/" target="_blank" rel="noopener">
       <Img
         style={{
           margin: ".5rem",
