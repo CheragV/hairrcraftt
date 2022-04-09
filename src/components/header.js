@@ -6,7 +6,7 @@ import SlideMenu from "./slide-menu"
 import Nav from "./nav"
 
 import styles from "./styles/header.module.css"
-import logo from "../images/logo_hairrcraftt.png"
+import logo from "../images/logo_hairrcraftt.webp"
 
 const Header = ({ siteTitle, menuLinks }) => (
   <header>

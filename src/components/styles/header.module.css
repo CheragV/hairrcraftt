@@ -24,15 +24,20 @@ header {
 .header__menu ul li {
   list-style: none;
   padding: 0.8rem 0;
+  font-size: 1rem;
 }
 .header__menu a {
   text-transform: uppercase;
   text-decoration: none;
   white-space: nowrap;
+  font-size: 0.9rem;
+  font-weight: 500;
 }
 @media (min-width: 961px) {
   header a {
     font-size: 1.2rem;
+    font-size: 0.9rem;
+    font-weight: 500;
   }
 }
 @media (max-width: 960px) {

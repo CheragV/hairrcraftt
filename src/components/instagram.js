@@ -19,12 +19,9 @@ const Instagram = () => {
     }
   }
 `)
-
-  debugger
   return (
     <div className="gallery">
       {query.allFile.edges.map((item, i) => {
-        debugger
         return item.node?.childImageSharp?.fluid ? (
           <div key={i}>
             <a>

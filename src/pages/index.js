@@ -6,7 +6,7 @@ import SEO from "../components/seo"
 import InstagramSingle from "../components/instagram-single"
 import InstagramSingle2 from "../components/instagram-single-2"
 
-import CoverImage from "../images/logo_hairrcraftt.png"
+import CoverImage from "../images/logo_hairrcraftt.webp"
 
 const insideStyles = {
   color: "white",
@@ -24,7 +24,7 @@ const IndexPage = () => (
     <div
       className="cover_image_container"
     >
-      <img src={CoverImage} className="cover_image" />
+      <img src={CoverImage} className="cover_image" alt="HairrCrafft_logo" />
     </div>
     <div className="frame_one_column">
       <div className="centered_p">
