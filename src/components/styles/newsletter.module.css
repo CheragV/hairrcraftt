@@ -46,15 +46,16 @@
   padding-top: 0.9rem;
   padding-bottom: 0.57rem;
 }
-input {
+.newsletter input {
   border-radius: 0;
   font-family: Josefin Sans, sans-serif;
   font-size: 16px;
   font-weight: 300;
   margin: 0;
+  appearance: none;
   -webkit-appearance: none;
 }
-input:focus {
+.newsletter input:focus {
   outline: 2px solid var(--text-color);
   outline-offset: -2px;
 }

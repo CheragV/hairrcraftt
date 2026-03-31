@@ -3,6 +3,8 @@ import React from "react"
 
 import Link from "./link"
 
+import siteMetadata from "../../siteMetadata"
+
 import styles from "./styles/footer.module.css"
 
 const Footer = ({ menuLinks }) => (
@@ -12,22 +14,22 @@ const Footer = ({ menuLinks }) => (
         <p className={styles.address}>
           <span className={styles.title}>HairrCraftt</span>
           <br />
-          <a href="https://g.page/Hairrcraftt?share">
-            Green View Apartment, Bhanu Nagar
-          </a>
-          <br />
-          <a href="https://g.page/Womans-Salon?share">
-            Navjeevan Apartment, Punjabi Para
-          </a>
-          <br />
-          Siliguri, West Bengal, 734001
+          {siteMetadata.locations?.map(location => (
+            <React.Fragment key={location.name}>
+              <a href={location.mapUrl} target="_blank" rel="noreferrer">
+                {location.name}
+              </a>
+              <br />
+            </React.Fragment>
+          ))}
+          {siteMetadata.address?.locality}, {siteMetadata.address?.region}, {siteMetadata.address?.postalCode}
         </p>
         <div className={styles.contact}>
           <p>
             <span className={styles.title}>Contact HairrCraftt</span>
             <br />
             <span itemProp="telephone">
-              <a href="tel:+919733371666">9733371666</a>
+              <a href={`tel:${siteMetadata.phone}`}>{siteMetadata.phone?.replace(/^\+91/, "")}</a>
             </span>
             <br />
           </p>

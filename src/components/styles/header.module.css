@@ -1,11 +1,14 @@
-header {
+.header {
   display: grid;
-  width: 100vw;
-  grid-template-columns: 300px auto 50px;
+  width: 100%;
+  grid-template-columns: auto 1fr auto;
   align-items: center;
-  background: white;
-}
-.header_brand {
+  background: rgba(246, 242, 237, 0.72);
+  backdrop-filter: blur(10px);
+  border-bottom: 1px solid rgba(20, 18, 16, 0.10);
+  position: sticky;
+  top: 0;
+  z-index: 30;
 }
 .header__slide {
   display: none;
@@ -13,6 +16,17 @@ header {
 .header__logo {
   min-width: 200px;
   padding: 1.45rem 1.0875rem;
+}
+
+.header__logo a {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+}
+
+.header__logo img {
+  height: 44px;
+  width: auto;
 }
 .header__menu {
   display: flex;
@@ -34,7 +48,7 @@ header {
   font-weight: 500;
 }
 @media (min-width: 961px) {
-  header a {
+  .header a {
     font-size: 1.2rem;
     font-size: 0.9rem;
     font-weight: 500;
@@ -44,13 +58,10 @@ header {
   .header__logo {
     min-width: 160px;
   }
-  .header__logo h1 {
-    font-size: 36px;
-  }
 }
 /* TODO: at <=640 width, change nav to left side pull out menu and center logo */
 @media (max-width: 640px) {
-  header {
+  .header {
     grid-template-columns: 1fr 3fr 1fr;
   }
   .header__slide {

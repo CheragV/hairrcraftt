@@ -8,6 +8,7 @@
 }
 .header__menu__book {
   display: flex;
+  gap: 0.5rem;
   padding: 0 1rem;
   list-style: none;
 }
@@ -21,12 +22,21 @@
 .header__menu__book a:hover {
   text-decoration: none;
 }
+
+.header__menu__book button {
+  cursor: pointer;
+}
+
+.header__menu__book button:hover {
+  text-decoration: none;
+}
 /* TODO: at <=640 width, change nav to left side pull out menu and center logo */
 @media (max-width: 640px) {
   .header__menu__links {
     display: none;
   }
-  .header__menu__book a {
+  .header__menu__book a,
+  .header__menu__book button {
     padding: 18px 12px 16px 12px;
   }
   .header__menu__book span {

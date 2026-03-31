@@ -26,7 +26,7 @@ const Nav = ({ menuLinks }) => (
       })}
     </ul>
     <div className={styles.header__menu__book}>
-      <a href="tel:9733371666" className="button">
+      <a href="tel:9733309111" className="button">
         📞<span className="call_text">HairrCraftt</span>
       </a>
     </div>
