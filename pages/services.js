@@ -328,7 +328,7 @@ export default function Services() {
                   <div className="card" style={{ background: "white", marginBottom: "0.75rem" }}>
                     <h3 style={{ marginBottom: "0.25rem" }}>Premium Nail Services</h3>
                     <p className="muted" style={{ margin: 0 }}>
-                      We offer premium nail art, nail extensions, gel polish and related services with 200+
+                      We offer premium nail art, nail extensions, gel polish and related services with 2000+
                       satisfied customers.
                     </p>
                   </div>

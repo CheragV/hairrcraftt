@@ -63,8 +63,8 @@ export default function Gallery() {
                     key={src}
                     style={{
                       position: "relative",
-                      width: 300,
-                      height: 450,
+                      width: "min(300px, calc(100vw - 3rem))",
+                      aspectRatio: "2 / 3",
                       margin: 4,
                       borderRadius: 12,
                       overflow: "hidden",

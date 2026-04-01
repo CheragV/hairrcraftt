@@ -28,7 +28,7 @@ export default function BranchPickerModal() {
         background: "rgba(0,0,0,0.42)",
         display: "grid",
         placeItems: "center",
-        padding: "1rem",
+        padding: "max(1rem, env(safe-area-inset-top)) max(1rem, env(safe-area-inset-right)) max(1rem, env(safe-area-inset-bottom)) max(1rem, env(safe-area-inset-left))",
       }}
     >
       <div
@@ -40,6 +40,8 @@ export default function BranchPickerModal() {
           background: "rgba(255,255,255,0.92)",
           backdropFilter: "blur(12px)",
           boxShadow: "var(--shadow)",
+          maxHeight: "min(820px, calc(100dvh - 2rem))",
+          overflow: "auto",
         }}
       >
         <div style={{ display: "flex", justifyContent: "space-between", gap: "1rem" }}>
@@ -61,9 +63,9 @@ export default function BranchPickerModal() {
               border: "1px solid var(--border)",
               background: "rgba(255,255,255,0.7)",
               borderRadius: 12,
-              padding: "0.5rem 0.75rem",
+              padding: "0.5rem 0.9rem",
               cursor: "pointer",
-              height: 40,
+              minHeight: 44,
               alignSelf: "start",
             }}
           >
@@ -72,6 +74,7 @@ export default function BranchPickerModal() {
         </div>
 
         <div
+          className="branchGrid"
           style={{
             display: "grid",
             gridTemplateColumns: "repeat(2, minmax(0, 1fr))",
@@ -154,8 +157,25 @@ export default function BranchPickerModal() {
 
         <style jsx>{`
           @media (max-width: 820px) {
-            div[role='dialog'] > div > div:nth-child(2) {
+            div[role='dialog'] {
+              place-items: end center;
+            }
+
+            div[role='dialog'] > div.surface {
+              width: 100%;
+              border-radius: 18px;
+              max-height: calc(100dvh - 1rem);
+            }
+
+            .branchGrid {
               grid-template-columns: 1fr;
+            }
+
+            .branchGrid :global(.button) {
+              flex: 1;
+              min-width: 0;
+              padding-left: 18px;
+              padding-right: 18px;
             }
           }
         `}</style>

@@ -12,7 +12,7 @@ export default function HomePage() {
   return (
     <Layout>
       <Seo
-        title="Hair Salon in Siliguri"
+        title="Unisex Salon in Siliguri, Hair | Skin | Nails"
         description="HairrCraftt is a premium unisex & family salon in Siliguri with two locations (Bhanu Nagar and Punjabi Para). Call or WhatsApp to book, or get directions."
       />
       <section className="section">
@@ -97,7 +97,7 @@ export default function HomePage() {
               premium nail services.
             </p>
 
-            <div className="cards" style={{ gridTemplateColumns: "repeat(4, minmax(0, 1fr))" }}>
+            <div className="cards">
               <div className="card" style={{ background: "white" }}>
                 <h3 style={{ marginBottom: "0.5rem" }}>Hair</h3>
                 <p className="muted" style={{ margin: 0 }}>

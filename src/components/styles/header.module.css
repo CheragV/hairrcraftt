@@ -72,4 +72,7 @@
     min-width: 134px;
     padding: 1rem 0;
   }
+  .header__menu {
+    display: none;
+  }
 }
