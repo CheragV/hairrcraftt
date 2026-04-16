@@ -4,9 +4,9 @@
       {
         "name": "Haircut",
         "items": [
-          { "service": "Haircut", "nonMemberPrice": 300, "memberPrice": null },
+          { "service": "Haircut", "nonMemberPrice": 250, "memberPrice": null },
           { "service": "Kids Haircut", "nonMemberPrice": 250, "memberPrice": null },
-          { "service": "Haircut (with Wash)", "nonMemberPrice": 400, "memberPrice": null }
+          { "service": "Haircut (with Wash)", "nonMemberPrice": 300, "memberPrice": null }
         ]
       },
       {
@@ -77,7 +77,7 @@
             "nonMemberPrice": 2200,
             "memberPrice": 1760
           },
-          { "service": "Diamond", "nonMemberPrice": 2200, "memberPrice": 1760 },
+          { "service": "Diamond", "nonMemberPrice": 2500, "memberPrice": 2000 },
           { "service": "O3 Shine & Glow", "nonMemberPrice": 2500, "memberPrice": 2000 },
           { "service": "O3 Bridal Glow", "nonMemberPrice": 3000, "memberPrice": 2400 },
           { "service": "Korean", "nonMemberPrice": 3000, "memberPrice": 2400 }
@@ -89,7 +89,8 @@
     "notes": [
       "Hairwash 200 extra, Oiled Hair 300 extra for haircuts unless specified",
       "Hairwash 200 extra, Oiled Hair 300 extra for temporary styling unless specified",
-      "Eyelashes, Lenses, Hair Accessories & Extensions, Travelling Cost are extra for makeup combos"
+      "Eyelashes, Lenses, Hair Accessories & Extensions, Travelling Cost are extra for makeup combos",
+      "Basic French, Ombre, Glitter are inclusive in the price for nails"
     ],
     "categories": [
       {
@@ -107,6 +108,7 @@
         "items": [
           { "service": "Hair Shoulder Length", "nonMemberPrice": 350, "memberPrice": null },
           { "service": "Hair Upto Waist", "nonMemberPrice": 400, "memberPrice": null },
+          { "service": "Hair Below Waist", "nonMemberPrice": 500, "memberPrice": null },
           { "service": "Oiled Hair", "nonMemberPrice": 500, "memberPrice": null }
         ]
       },
@@ -133,7 +135,7 @@
         "items": [
           { "service": "Basic", "nonMemberPrice": 800, "memberPrice": 640 },
           { "service": "Gold", "nonMemberPrice": 2200, "memberPrice": 1760 },
-          { "service": "Diamond", "nonMemberPrice": 2200, "memberPrice": 1760 }
+          { "service": "Diamond", "nonMemberPrice": 2500, "memberPrice": 2000 }
         ]
       },
       {
@@ -180,9 +182,9 @@
             "memberPrice": 240
           },
           { "service": "Gold Bleach - Face", "nonMemberPrice": 400, "memberPrice": 320 },
-          { "service": "Back / Front Bleach", "nonMemberPrice": 600, "memberPrice": 480 },
+          { "service": "Back / Front Bleach", "nonMemberPrice": 700, "memberPrice": 560 },
           { "service": "Hand Bleach", "nonMemberPrice": 600, "memberPrice": 480 },
-          { "service": "Full Body Bleach", "nonMemberPrice": 1800, "memberPrice": 1440 }
+          { "service": "Full Body Bleach", "nonMemberPrice": 2000, "memberPrice": 1600 }
         ]
       },
       {
@@ -196,10 +198,16 @@
             "memberPrice": 640
           },
           {
-            "service": "Premium Dtan Manicure",
-            "nonMemberPrice": 1000,
-            "memberPrice": 800
+            "service": "Premium D-Tan Manicure",
+            "nonMemberPrice": 1100,
+            "memberPrice": 880
           },
+          {
+            "service": "8 Step Lux Manicure",
+            "nonMemberPrice": 1400,
+            "memberPrice": 1120
+          },
+
           { "service": "Basic Pedicure", "nonMemberPrice": 500, "memberPrice": 400 },
           { "service": "Crystal Pedicure", "nonMemberPrice": 800, "memberPrice": 640 },
           {
@@ -208,9 +216,14 @@
             "memberPrice": 720
           },
           {
-            "service": "Premium Dtan Pedicure",
-            "nonMemberPrice": 1100,
-            "memberPrice": 880
+            "service": "Premium D-Tan Pedicure",
+            "nonMemberPrice": 1200,
+            "memberPrice": 960
+          },
+          {
+            "service": "8 Step Lux Pedicure",
+            "nonMemberPrice": 1500,
+            "memberPrice": 1200
           },
           { "service": "Nail Filing (Hands & Legs)", "nonMemberPrice": 150, "memberPrice": null },
           { "service": "Nail Paint (Hands & Legs)", "nonMemberPrice": 100, "memberPrice": null },
@@ -219,13 +232,42 @@
         ]
       },
       {
-        "name": "Nail Art & Extensions",
+        "name": "Nails - Gel",
         "items": [
-          { "service": "Nail Art (Basic)", "nonMemberPriceNote": "On request", "memberPrice": null },
-          { "service": "Nail Art (Premium)", "nonMemberPriceNote": "On request", "memberPrice": null },
-          { "service": "Gel Polish", "nonMemberPriceNote": "On request", "memberPrice": null },
-          { "service": "Nail Extensions", "nonMemberPriceNote": "On request", "memberPrice": null },
-          { "service": "Nail Extension Removal", "nonMemberPriceNote": "On request", "memberPrice": null }
+          { "service": "Gel Polish (Own Nail Base ) - Hands", "nonMemberPrice": 900, "memberPrice": null },
+          { "service": "Gel Polish (Own Nail Base ) - Feet", "nonMemberPrice": 900, "memberPrice": null },
+          { "service": "Gel Extensions- Hands", "nonMemberPrice": 1700, "memberPrice": null },
+          { "service": "Gel Extensions- Feet", "nonMemberPrice": 1600, "memberPrice": null }
+        ]
+      },
+      {
+        "name": "Nails - Acrylic",
+        "items": [
+          { "service": "Acrylic Polish (Own Nail Base )- Hands", "nonMemberPrice": 1100, "memberPrice": null },
+          { "service": "Acrylic Polish (Own Nail Base )- Feet", "nonMemberPrice": 1100, "memberPrice": null },
+          { "service": "Acrylic Extensions- Hands", "nonMemberPrice": 2100, "memberPrice": null },
+          { "service": "Acrylic Extensions- feet", "nonMemberPrice": 2000, "memberPrice": null }
+        ]
+      },
+      {
+        "name": "Nails - Extra Charges",
+        "items": [
+          { "service": "Cat Eye", "nonMemberPriceNote": "40 per finger", "memberPrice": null },
+          { "service": "Chrome", "nonMemberPriceNote": "40 per finger", "memberPrice": null },
+          { "service": "3D Art", "nonMemberPriceNote": "100 per finger", "memberPrice": null },
+          { "service": "Big Glitter", "nonMemberPriceNote": "50 per finger", "memberPrice": null },
+          { "service": "Stone Work", "nonMemberPriceNote": "100 per finger", "memberPrice": null },
+          { "service": "Free Hand Artwork", "nonMemberPriceNote": "100 per finger", "memberPrice": null },
+          { "service": "Foil", "nonMemberPriceNote": "30 per finger", "memberPrice": null }
+        ]
+      },
+      {
+        "name": "Nails - Removal",
+        "items": [
+          { "service": "Extension Removal", "nonMemberPrice": 350, "memberPrice": null },
+          { "service": "Extension Removal (Outside Work )", "nonMemberPrice": 500, "memberPrice": null },
+          { "service": "Gel Polish Removal", "nonMemberPriceRange": "200-250", "memberPrice": null },
+          { "service": "Acrylic Polish Removal", "nonMemberPriceRange": "300-350", "memberPrice": null }
         ]
       },
       {
@@ -236,7 +278,7 @@
           { "service": "Sidelocks", "nonMemberPrice": 100, "memberPrice": null },
           { "service": "Full Face ( Normal )", "nonMemberPrice": 200, "memberPrice": null },
           { "service": "Full Face ( Rica )", "nonMemberPrice": 300, "memberPrice": null },
-          { "service": "Full Face ( Beed )", "nonMemberPrice": 400, "memberPrice": null }
+          { "service": "Full Face ( Bead )", "nonMemberPrice": 400, "memberPrice": null }
         ]
       },
       {
@@ -249,8 +291,9 @@
           { "service": "Full Legs", "nonMemberPrice": 400, "memberPrice": 320 },
           { "service": "Stomach", "nonMemberPrice": 300, "memberPrice": null },
           { "service": "Half Front / Back", "nonMemberPrice": 400, "memberPrice": 320 },
-          { "service": "Full Front / Back", "nonMemberPrice": 600, "memberPrice": 480 },
-          { "service": "Full Body", "nonMemberPrice": 1800, "memberPrice": 1440 }
+          { "service": "Full Front / Back", "nonMemberPrice": 700, "memberPrice": 560 },
+          { "service": "Full Body", "nonMemberPrice": 2000, "memberPrice": 1600 },
+          { "service": "B. Wax", "nonMemberPrice": 1000, "memberPrice": 800 }
         ]
       },
       {
@@ -263,8 +306,9 @@
           { "service": "Full Legs", "nonMemberPrice": 600, "memberPrice": 480 },
           { "service": "Stomach", "nonMemberPrice": 400, "memberPrice": 320 },
           { "service": "Half Front / Back", "nonMemberPrice": 500, "memberPrice": 400 },
-          { "service": "Full Front / Back", "nonMemberPrice": 700, "memberPrice": 560 },
-          { "service": "Full Body", "nonMemberPrice": 2200, "memberPrice": 1760 }
+          { "service": "Full Front / Back", "nonMemberPrice": 800, "memberPrice": 640 },
+          { "service": "Full Body", "nonMemberPrice": 2400, "memberPrice": 1920 },
+          { "service": "B.Wax", "nonMemberPrice": 1200, "memberPrice": 960 }
         ]
       },
       {
@@ -276,16 +320,17 @@
           { "service": "Half Legs", "nonMemberPrice": 600, "memberPrice": 480 },
           { "service": "Full Legs", "nonMemberPrice": 900, "memberPrice": 720 },
           { "service": "Stomach", "nonMemberPrice": 500, "memberPrice": 400 },
-          { "service": "Half Front / Back", "nonMemberPrice": 700, "memberPrice": 560 },
-          { "service": "Full Front / Back", "nonMemberPrice": 800, "memberPrice": 640 },
-          { "service": "Full Body", "nonMemberPrice": 3000, "memberPrice": 2400 }
+          { "service": "Half Front / Back", "nonMemberPrice": 600, "memberPrice": 480 },
+          { "service": "Full Front / Back", "nonMemberPrice": 900, "memberPrice": 720 },
+          { "service": "Full Body", "nonMemberPrice": 3000, "memberPrice": 2400 },
+          { "service": "B.Wax", "nonMemberPrice": 1500, "memberPrice": 1200 }
         ]
       },
       {
         "name": "Temporary Styling",
         "items": [
-          { "service": "Blow Dry (Curls, Straight) Upto Shoulder", "nonMemberPrice": 400, "memberPrice": 360 },
-          { "service": "Blow Dry (Curls, Straight) Below Shoulder", "nonMemberPrice": 500, "memberPrice": 450 },
+          { "service": "Blow Dry (Curls, Straight) Upto Shoulder", "nonMemberPrice": 300, "memberPrice": null },
+          { "service": "Blow Dry (Curls, Straight) Below Shoulder", "nonMemberPrice": 400, "memberPrice": 360 },
           { "service": "Ironing Upto Shoulder", "nonMemberPrice": 700, "memberPrice": 630 },
           { "service": "Ironing Below Shoulder", "nonMemberPrice": 800, "memberPrice": 720 },
           { "service": "Hair Styling Iron Tongs / Curls", "nonMemberPrice": 800, "memberPrice": 720 },
@@ -299,7 +344,7 @@
           { "service": "Crown", "nonMemberPrice": 1200, "memberPrice": null },
           { "service": "Upto Shoulder", "nonMemberPrice": 2800, "memberPrice": null },
           { "service": "Mid Length", "nonMemberPriceRange": "3500-4000", "memberPrice": null },
-          { "service": "Below Waist", "nonMemberPriceRange": "4500-5500", "memberPrice": null }
+          { "service": "Below Waist", "nonMemberPriceRange": "4500-above", "memberPrice": null }
         ]
       },
       {
@@ -307,7 +352,7 @@
         "items": [
           { "service": "Upto Shoulder", "nonMemberPrice": 4000, "memberPrice": null },
           { "service": "Mid Length", "nonMemberPriceRange": "5000-5500", "memberPrice": null },
-          { "service": "Below Waist", "nonMemberPriceRange": "6000-6500", "memberPrice": null }
+          { "service": "Below Waist", "nonMemberPriceRange": "6000-above", "memberPrice": null }
         ]
       },
       {
@@ -316,6 +361,14 @@
           { "service": "Upto Shoulder", "nonMemberPrice": 4500, "memberPrice": null },
           { "service": "Mid Length", "nonMemberPriceRange": "5500-6000", "memberPrice": null },
           { "service": "Below Waist", "nonMemberPriceRange": "6500-7000", "memberPrice": null }
+        ]
+      },
+      {
+        "name": "Nano Plastia Treatment",
+        "items": [
+          { "service": "Upto Shoulder", "nonMemberPrice": 5000, "memberPrice": null },
+          { "service": "Mid Length", "nonMemberPriceRange": "6000-7000", "memberPrice": null },
+          { "service": "Below Waist", "nonMemberPriceRange": "8000-above", "memberPrice": null }
         ]
       },
       {
@@ -351,9 +404,9 @@
         ]
       },
       {
-        "name": "Hair Color - Balyage / Ombre",
+        "name": "Hair Color - Balayage / Ombre",
         "items": [
-          { "service": "Balyage / Ombre", "nonMemberPriceNote": "4500 Onwards", "memberPrice": null }
+          { "service": "Balayage / Ombre", "nonMemberPriceNote": "4500 Onwards", "memberPrice": null }
         ]
       },
       {
@@ -390,8 +443,8 @@
       {
         "name": "Head Massage",
         "items": [
-          { "service": "With Wash", "nonMemberPrice": 600, "memberPrice": 540 },
-          { "service": "Without Wash", "nonMemberPrice": 400, "memberPrice": 360 }
+          { "service": "With Wash", "nonMemberPrice": 700, "memberPrice": 630 },
+          { "service": "Without Wash", "nonMemberPrice": 500, "memberPrice": 450 }
         ]
       },
       {
@@ -400,12 +453,13 @@
           { "service": "Basic Party Makeup", "nonMemberPrice": 900, "memberPrice": null },
           { "service": "HD Party Makeup", "nonMemberPrice": 1500, "memberPrice": null },
           { "service": "Eye Makeup", "nonMemberPrice": 300, "memberPrice": null },
-          { "service": "Only Base", "nonMemberPrice": 500, "memberPrice": null },
+          { "service": "Only Base Makeup", "nonMemberPrice": 500, "memberPrice": null },
+          { "service": "Kids Makeup", "nonMemberPrice": 500, "memberPrice": null },
           { "service": "Hairdo", "nonMemberPrice": 800, "memberPrice": null },
           { "service": "Saree Draping", "nonMemberPrice": 500, "memberPrice": null },
           { "service": "Heavy Saree Draping", "nonMemberPrice": 600, "memberPrice": null },
           { "service": "Dupatta Draping", "nonMemberPrice": 300, "memberPrice": null },
-          { "service": "Makeup, Hair, Draping Combo", "nonMemberPrice": 2000, "memberPrice": null }
+          { "service": "Makeup, Hair, Draping Combo", "nonMemberPrice": 2200, "memberPrice": null }
         ]
       }
     ]
@@ -416,44 +470,44 @@
       {
         "name": "Bronze Package",
         "items": [
-          "Gold / Diamond Facial (Shahnaz/ Vlcc/ Lotus) - 2200",
-          "Full Body Chocolate Wax - 2200",
+          "Lotus Insta Fair Facial - 1500",
+          "Full Body Bee Wax - 2000",
           "Full Body Bleach - 2000",
           "Crystal Manicure & Pedicure - 1500",
-          "Loreal Hair spa - 1000",
+          "Loreal Hair Spa - 1000",
           "Haircut - 500"
         ],
-        "total": 9400,
-        "offerPrice": 7500
+        "total": 8500,
+        "offerPrice": 7200
       },
       {
         "name": "Silver Package",
         "items": [
-          "Gold / Diamond Facial (Shahnaz/ Vlcc/ Lotus) - 2200",
-          "Full Body Chocolate Wax - 2200",
+          "Gold Facial ( Shahnaz / Lotus ) - 2200",
+          "Full Body Chocolate Wax - 2400",
           "Body Polishing - 3500",
           "Full Body Bleach - 2000",
           "Crystal Manicure & Pedicure - 1500",
-          "Loreal Hair spa - 1000",
+          "Loreal Hair Spa - 1000",
           "Haircut - 500"
         ],
-        "total": 12900,
-        "offerPrice": 10900
+        "total": 13100,
+        "offerPrice": 11100
       },
       {
         "name": "Gold Package",
         "items": [
-          "Gold / Diamond Facial (Shahnaz/ Vlcc/ Lotus) - 2 Times - 4400",
+          "O3 Shine & Glow / Diamond Facial (Shahnaz) - 2500",
           "Full Body Rica Wax - 3000",
           "Body Polishing - 3500",
           "Full Body Bleach - 2000",
-          "Crystal Manicure & Pedicure - 1500",
-          "Loreal Hair spa - 1000",
+          "Fruit Manicure & Pedicure - 1700",
+          "Argan Hair Spa - 1500",
           "Haircut - 500",
           "Nail Extensions - 2100"
         ],
-        "total": 18000,
-        "specialOffer": 15500
+        "total": 16800,
+        "specialOffer": 14200
       },
       {
         "name": "Diamond Package",
@@ -462,14 +516,14 @@
           "Full Body Rica Wax - 3000",
           "Body Polishing - 3500",
           "Full Body Bleach - 2000",
-          "Crystal Manicure & Pedicure - 1500",
-          "Loreal Hair spa - 1000",
+          "Lux D-Tan Manicure & Pedicure - 2300",
+          "Argan Hair Spa - 1500",
           "Haircut - 500",
           "Hand Nail Extensions - 2100",
           "Feet Gel Polish - 900"
         ],
-        "total": 17500,
-        "specialOffer": 15000
+        "total": 18800,
+        "specialOffer": 15900
       }
     ],
     "men": [
@@ -477,7 +531,7 @@
         "name": "Silver Package",
         "items": [
           "Haircut & Beard - 400",
-          "Dtan - 300",
+          "D-Tan - 300",
           "Insta Fair Facial - 1500",
           "Loreal Hair Spa - 700",
           "Manicure & Pedicure - 900"
@@ -489,7 +543,7 @@
         "name": "Gold Package",
         "items": [
           "Haircut & Beard - 400",
-          "Dtan - 300",
+          "D-Tan - 300",
           "Gold/ Diamond Facial - 2200",
           "Loreal Hair Spa - 700",
           "Manicure & Pedicure - 900"
@@ -501,7 +555,7 @@
         "name": "Diamond Package",
         "items": [
           "Haircut & Beard - 400",
-          "Dtan - 300",
+          "D-Tan - 300",
           "O3 Bridal Glow / Korean Facial - 3000",
           "Argan Hair Spa - 900",
           "Crystal Manicure & Pedicure - 1500"

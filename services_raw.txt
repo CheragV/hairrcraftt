@@ -1,0 +1,1019 @@
+Men Services	Non Member	Member																							
+																									
+Service																									
+Haircut																									
+Haircut	250	N/a																							
+Kids Haircut	250	N/a																							
+Haircut (with Wash)	300	N/a																							
+																									
+Basic Service																									
+Hairset	200	N/a																							
+Shaving	150	N/a																							
+Beard Trim	150	N/a																							
+Style Shave	150	N/a																							
+Head Massage (with Hairwash)	600	540																							
+Loreal Hair Spa	700	630																							
+Loreal Anti Dandruff Hair Spa	800	720																							
+Argan Hair Spa	900	810																							
+																									
+Color Services																									
+Color Streak	200	N/a																							
+Moustache	100	N/a																							
+Side Locks Touchup	150	N/a																							
+Beard Touchup	200	N/a																							
+Global 	800	720																							
+Ammonia Free Global 	1000	900																							
+Highlights	1500	N/a																							
+																									
+																									
+Face Services																									
+CleanUp	600	480																							
+DeTan 	300	N/a																							
+																									
+Facial																									
+Basic Facial (Fruit, Lotus, Vlcc, Shahnaz)	800	640																							
+Pearl 	1200	960																							
+Silver	1700	1360																							
+Gold Vlcc	2000	1600																							
+Lotus Gold Sheen / Shahnaz Gold	2200	1760																							
+Diamond	2500	2000																							
+O3 Shine & Glow	2500	2000																							
+O3 Bridal Glow	3000	2400																							
+Korean 	3000	2400																							
+																									
+																									
+Women Services																									
+																									
+Service	Non Member	Member																							
+Haircut																									
+Basic Haircut	400	N/a																							
+Advanced Haircut	500	N/a																							
+Hair Trimming	350	N/a																							
+Kids Haircut	300	N/a																							
+Fringe Haircut	200	N/a																							
+																									
+(Hairwash 200 Extra , Oiled Hair 300 Extra)																									
+																									
+Hairwash																									
+Hair Shoulder Length	350	N/a																							
+Hair Upto Waist	400	N/a																							
+Hair Below Waist	500	N/a																							
+Oiled Hair	500	N/a																							
+Enhancements																									
+Eyebrows	40	N/a																							
+Upperlips / Lowerlips	20	N/a																							
+Forehead / Chin	20	N/a																							
+Sidelocks	60	N/a																							
+Full Face	200	N/a																							
+																									
+Beauty Services																									
+DeTan	300	N/a																							
+CleanUp	600	480																							
+Body Polishing 	3500	2800																							
+																									
+Facials																									
+																									
+Shahnaz																									
+Basic	800	640																							
+Gold	2200	1760																							
+Diamond	2500	2000																							
+																									
+Lotus																									
+Basic	800	640																							
+Insta Fair	1500	1200																							
+Gold Sheen	2200	1760																							
+																									
+Vlcc																									
+Basic	800	640																							
+Pearl	1200	960																							
+Gold	2000	1600																							
+																									
+O3 																									
+Shine & Glow	2500	2000																							
+Bridal Glow	3000	2400																							
+																									
+Aroma 																									
+Silver	1700	1360																							
+																									
+Korean																									
+Glass Skin	3000	2400																							
+																									
+																									
+Bleach																									
+Haldi Chandan Bleach - Face	300	240																							
+Gold Bleach - Face	400	320																							
+Back / Front Bleach	700	560																							
+Hand Bleach	600	480																							
+Full Body Bleach	2000	1600																							
+																									
+																									
+Manicure & Pedicure																									
+Basic Manicure	400	320																							
+Crystal Manicure	700	560																							
+Lemon / Blueberry Manicure	800	640																							
+Premium Dtan Manicure	1100	880																							
+8 Step Lux Manicure	1400	1120																							
+																									
+Basic Pedicure	500	400																							
+Crystal Pedicure	800	640																							
+Lemon / Blueberry Pedicure	900	720																							
+Premium Dtan Pedicure	1200	960																							
+8 Step Lux Pedicure	1500	1200																							
+																									
+Nail Filing (Hands & Legs )	150	N/a																							
+Nail Paint (Hands & Legs )	100	N/a																							
+																									
+Foot Massage	300	N/a																							
+Hands Massage	300	N/a																							
+																									
+																									
+Waxing																									
+Upper lip/ Lower Lip	50	N/a																							
+Chin	50	N/a																							
+Sidelocks	100	N/a																							
+Full Face ( Normal )	200	N/a																							
+Full Face ( Rica )	300	N/a																							
+Full Face ( Beed )	400	N/a																							
+																									
+Basic Bee Wax																									
+Under Arms	100	N/a																							
+Half Arms	250	N/a																							
+Full Arms	300	N/a																							
+Half Legs	350	N/a																							
+Full Legs	400	320																							
+Stomach	300	N/a																							
+Half Front / Back 	400	320																							
+Full Front / Back 	700	560																							
+Full Body	2000	1600																							
+B. Wax	1000	800																							
+																									
+Chocolate Wax																									
+Under Arms	150	N/a																							
+Half Arms	350	N/a																							
+Full Arms	400	320																							
+Half Legs	400	320																							
+Full Legs	600	480																							
+Stomach	400	320																							
+Half Front / Back 	500	400																							
+Full Front / Back 	800	640																							
+Full Body	2400	1920																							
+B.Wax	1200	960																							
+																									
+Rica Wax																									
+Under Arms	200	N/a																							
+Half Arms	500	400																							
+Full Arms	600	480																							
+Half Legs	600	480																							
+Full Legs	900	720																							
+Stomach	500	400																							
+Half Front / Back 	600	480																							
+Full Front / Back 	900	720																							
+Full Body	3000	2400																							
+B.Wax	1500	1200																							
+																									
+Temporary Styling																									
+																									
+Blow Dry ( Curls, Straight )																									
+Upto Shoulder	300	N/a																							
+Below Shoulder	400	360																							
+																									
+Ironing																									
+Upto Shoulder	700	630																							
+Below Shoulder	800	720																							
+																									
+Hair Styling																									
+Iron Tongs / Curls	800	720																							
+Crimping	700	630																							
+																									
+( Hairwash 200 extra , Oiled Hair 300 extra )	 																								
+																									
+																									
+Permanent Texture Service																									
+																									
+Straightening / Smoothening 																									
+Fringe	600	N/a																							
+Crown	1200	N/a																							
+Upto Shoulder	2800	N/a																							
+Mid Length 	3500- 4000	N/a																							
+Below Waist	4500- above	N/a																							
+																									
+																									
+Keratin Treatment																									
+Upto Shoulder	4000	N/a																							
+Mid Length 	5000- 5500	N/a																							
+Below Waist	6000- above	N/a																							
+																									
+																									
+Botox Treatment																									
+Upto Shoulder	4500	N/a																							
+Mid Length	5500- 6000	N/a																							
+Below Waist	6500- above	N/a																							
+																									
+Nano Plastia Treatment																									
+Upto Shoulder	5000	N/a																							
+Mid Length	6000-7000	N/a																							
+Below Waist	8000- above	N/a																							
+																									
+Hair Color																									
+Touchup																									
+Touchup ( Loreal Majirel )	900	810																							
+Touchup ( Loreal Inoa )	1100	990																							
+Crown Touchup ( Loreal Majirel )	600	540																							
+Crown Touchup ( Loreal Inoa )	700	630																							
+																									
+Global																									
+Base Shade	2500 Onwards	N/a																							
+Fashion Shade	4000 Onwards	N/a																							
+																									
+Balyage / Ombre 	4500 Onwards	N/a																							
+																									
+Highlights ( Classic, Balyage, Placements )																									
+Per Foil Placement 	350	N/a																							
+Global Highlights	4500 Onwards	N/a																							
+																									
+																									
+Hair & Scalp Treatment																									
+																									
+Loreal Hair Spa																									
+Upto Shoulder	1000	900																							
+Mid Length 	1200	1080																							
+Below Waist	1500	1350																							
+																									
+Anti Dandruff Hair Spa																									
+Upto Shoulder	1200	1080																							
+Mid Length 	1500	1350																							
+Below Waist	1800	1620																							
+																									
+Botox / Keratin Argan Hair Spa																									
+Upto Shoulder	1500	1350																							
+Mid Length 	1800	1620																							
+Below Waist	2100	1890																							
+																									
+Head Massage																									
+With Wash	700	630																							
+Without Wash	500	450																							
+																									
+																									
+Makeup & Additional Services																									
+Basic Party Makeup	900	N/a																							
+HD Party Makeup	1500	N/a																							
+Eye Makeup	300	N/a																							
+Only Base Makeup	500	N/a																							
+Kids Makeup	500	N/a																							
+Hairdo	800	N/a																							
+Saree Draping	500	N/a																							
+Heavy Saree Draping	600	N/a																							
+Dupatta Draping	300	N/a																							
+																									
+Makeup, Hair, Draping Combo	2200	N/a																							
+																									
+( Eyelashes, Lenses, Hair Accessories & Extensions , Travelling Cost are Extra Chargeable )																									
+																									
+																									
+Pre Bridal Packages																									
+																									
+Women																									
+																									
+Bronze Package																									
+Lotus Insta Fair Facial	1500																								
+Full Body Bee Wax	2000																								
+Full Body Bleach	2000																								
+Crystal Manicure & Pedicure	1500																								
+Loreal Hair spa	1000																								
+Haircut	500																								
+Total	8500/-																								
+Offer Price	7200/-																								
+																									
+																									
+Silver Package																									
+Gold Facial ( Shahnaz / Lotus )	2200																								
+Full Body Chocolate Wax	2400																								
+Body Polishing	3500																								
+Full Body Bleach	2000																								
+Crystal Manicure & Pedicure	1500																								
+Loreal Hair spa	1000																								
+Haircut	500																								
+Total	13100/-																								
+Offer Price	11100/-																								
+																									
+																									
+Gold Package																									
+O3 Shine & Glow / Diamond Facial (Shahnaz ) 	2500																								
+Full Body Rica Wax	3000																								
+ Body Polishing	3500																								
+Full Body Bleach	2000																								
+Fruit Manicure & Pedicure	1700																								
+Argan Hair spa	1500																								
+Haircut	500																								
+Nail Extensions	2100																								
+																									
+Total	16800/-																								
+Special Offer	14200/-																								
+																									
+																									
+Diamond Package																									
+O3 Bridal Glow / Korean Facial	3000																								
+Full Body Rica Wax	3000																								
+ Body Polishing	3500																								
+Full Body Bleach	2000																								
+Lux D-Tan Manicure & Pedicure	2300																								
+Argan Hair spa	1500																								
+Haircut	500																								
+Hand Nail Extensions	2100																								
+Feet Gel Polish	900																								
+Total	18800/-																								
+Special Offer	15,900/-																								
+																									
+																									
+																									
+Men																									
+Silver Package																									
+																									
+Haircut & Beard	400																								
+Dtan 	300																								
+Insta Fair Facial	1500																								
+Loreal Hair Spa	700																								
+Manicure & Pedicure	900																								
+Total	3800/-																								
+Special Offer	3300/-																								
+																									
+																									
+Gold Package																									
+Haircut & Beard	400																								
+Dtan 	300																								
+Gold/ Diamond Facial	2200																								
+Loreal Hair Spa	700																								
+Manicure & Pedicure	900																								
+Total	4500/-																								
+Special Offer	4000/-																								
+																									
+																									
+Diamond Package																									
+Haircut & Beard	400																								
+Dtan 	300																								
+O3 Bridal Glow / Korean Facial	3000																								
+Argan Hair Spa	900																								
+Crystal Manicure & Pedicure	1500																								
+Total	6100/-																								
+Special Offer	5500/-																								
+																									
+( Pre Bridal / Grooming Packages can be Customised )																									
+																									
+																									
+Nails																									
+Gel Polish (Own Nail Base ) - Hands	900																								
+Gel Polish (Own Nail Base ) - Feet	900																								
+Gel Extensions- Hands	1700																								
+Gel Extensions- Feet	1600																								
+																									
+Acrylic Polish (Own Nail Base )- Hands	1100																								
+Acrylic Polish (Own Nail Base )- Feet	1100																								
+Acrylic Extensions- Hands	2100																								
+Acrylic Extensions- feet	2000																								
+																									
+(Basic French, Ombre, Glitter Inclusive in the Price )																									
+																									
+Extra Charges																									
+Cat Eye 	40 per finger																								
+Chrome	40 per finger																								
+3D Art	100 per finger																								
+Big Glitter	50 per finger																								
+Stone Work 	100 per finger																								
+Free Hand Artwork 	100 per finger																								
+Foil 	30 per finger																								
+																									
+Extension Removal	350																								
+Extension Removal (Outside Work )	500																								
+Gel Polish Removal 	200-250																								
+Acrylic Polish Removal 	300-350																								
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
+																									
