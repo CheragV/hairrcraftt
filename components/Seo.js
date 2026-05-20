@@ -50,6 +50,8 @@ export default function Seo({ title, description, image, noIndex = false }) {
 
       {noIndex ? <meta name="robots" content="noindex,nofollow" /> : null}
 
+      <meta name="google-site-verification" content="7MeXxcG5PXjRZeac5J2ejgGxDcmOtJHJFg1J5aK_INs" />
+
       <meta property="og:title" content={metaTitle} />
       <meta property="og:description" content={metaDescription} />
       <meta property="og:type" content="website" />
